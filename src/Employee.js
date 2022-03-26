@@ -16,7 +16,8 @@ const Employee = () => {
 
  // clear input fields
   const Reset = () => {
-    document.getElementById("myform").reset();
+    document.getElementById("name").value =" ";
+    document.getElementById("age").value = " ";
    };
 
   // delete perticuler index
@@ -42,7 +43,7 @@ const Employee = () => {
               <input
                 type="text"
                 id="name"
-                placeholder="John Mark"
+                placeholder="Enter Your Name"
                 className="form-control"
                 onChange={(obj) => pickName(obj.target.value)}
                 value={name}
@@ -51,7 +52,7 @@ const Employee = () => {
               <input
                 type="number"
                 id="age"
-                placeholder="29"
+                placeholder="Enter Age"
                 className="form-control"
                 onChange={(obj) => pickAge(obj.target.value)}
                 value={age}
