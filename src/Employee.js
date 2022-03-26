@@ -63,7 +63,7 @@ const Employee = () => {
               </div>
             </form>
           </div>
-        </div> {/* left div end here */}
+        </div> 
 
         <div className="col-lg-5 mx-auto">
           <div className="result">
